@@ -1,0 +1,3 @@
+<button type="submit" class= "follow-toggle" data-user='{ "user_id" : <%= user.id %> ,
+  "followed_state": "<%= user.followers.include?(current_user) ? "followed" : "unfollowed"%>" }'>
+</button>
